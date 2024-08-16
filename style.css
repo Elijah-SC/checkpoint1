@@ -1,0 +1,51 @@
+:root {
+  --dark: #5B636E;
+  --light: white;
+  --green: #07AB80;
+  --grey: #8F8E98;
+
+}
+
+.diamond-logo {
+  font-size: 3em;
+  margin-right: 1em;
+
+}
+
+.nav-m {
+  margin-right: -8em;
+}
+
+body {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+nav {
+  background-color: var(--green);
+  color: var(--light);
+}
+
+header {
+  background-image: url(imgs/hero-img.png);
+  height: 95vh;
+  background-size: cover;
+
+}
+
+.hero-color {
+  background-color: rgba(0, 0, 0, .5);
+  height: 100vh;
+}
+
+.form-box {
+  margin: 1em 2em;
+  padding: 2em;
+  background-color: var(--light);
+}
+
+.h3-p {
+  padding: unset;
+}

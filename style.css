@@ -30,7 +30,7 @@ nav {
 
 header {
   background-image: url(imgs/hero-img.png);
-  height: 95vh;
+  height: 100vh;
   background-size: cover;
 
 }
@@ -41,11 +41,33 @@ header {
 }
 
 .form-box {
-  margin: 1em 2em;
-  padding: 2em;
+  margin-top: 8em;
+  margin-left: 2em;
+  margin-right: 2em;
+  padding: 1em;
   background-color: var(--light);
 }
 
 .h3-p {
   padding: unset;
+}
+
+.text-over-img {
+  padding-top: 18em;
+}
+
+.message-form {
+  padding-bottom: 8em;
+}
+
+.offset-p {
+  padding-left: 2em;
+}
+
+.little-line {
+  background-color: #07AB80;
+  border: solid 1px var(--green);
+  height: 2em;
+  width: .5em;
+  margin-right: 10px;
 }

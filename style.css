@@ -41,9 +41,10 @@ header {
 }
 
 .form-box {
-  margin-top: 8em;
+  margin-top: 6.5em;
   margin-left: 2em;
   margin-right: 2em;
+  margin-bottom: 3em;
   padding: 1em;
   background-color: var(--light);
 }
@@ -111,12 +112,64 @@ header {
   min-height: 80vh;
 }
 
+/* .gold-color {
+  background-color: rgba(0, 0, 0, .5);
+  height: 100%;
+} */
+
 @media screen and (min-width: 992px) {
 
   .overflow-right {
     position: absolute;
-    margin-right: 5em;
+    margin-right: 2em;
+    margin-top: 10em;
 
   }
+}
 
+@media screen and (min-width: 922px) {
+
+  .overflow-adj {
+    margin-top: 15em;
+  }
+}
+
+
+
+.review-row {
+  background-color: var(--jet);
+  min-height: 60vh;
+}
+
+.review-cards {
+  background-color: var(--light);
+  margin: 2em;
+  text-align: center;
+  padding-top: 4em;
+  margin-top: 2.5em;
+  margin-bottom: 2.5em;
+  padding: 2em;
+}
+
+.center-card {
+  background-color: var(--light);
+  margin: 1em;
+  text-align: center;
+  padding: 2em;
+}
+
+.stars {
+  font-size: 3em;
+  padding: 4px;
+}
+
+
+.footer-img {
+  width: 100;
+  height: 30vh;
+  padding: unset;
+}
+
+footer {
+  background-color: var(--dark);
 }
